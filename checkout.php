@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-$_SESSION['shoppingCart'] = array("milk", "potatos", "waffles", "table", "Derek");
-
 function displayItems(){
     foreach($_SESSION['shoppingCart'] as $elements){
         echo "<div>";
