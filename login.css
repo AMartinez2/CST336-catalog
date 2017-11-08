@@ -1,0 +1,37 @@
+#header {
+    text-align: center;
+}
+
+body {
+    background-color: #396173;
+}
+
+span {
+    background-color: #1b75bb;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+input {
+    font-size: 150%;
+}
+
+form {
+    width: 600px;
+}
+
+#fields {
+    padding-top: 50px;
+    position: absolute;
+    left: 35%;
+}
+
+#logBtn {
+    text-align: center;
+}
