@@ -48,7 +48,7 @@ function loginError() {
     
     if($passFlag && $userFlag) {
         //Store variables and go to next page
-        $_SESSION['userName'] = $_POST['username'];
+        $_SESSION['username'] = $_POST['username'];
         $_SESSION['password'] = $_POST['password'];
         header("Location: index.php");
     }
