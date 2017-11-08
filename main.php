@@ -49,6 +49,7 @@ function getItems() {
         }
     }
             
+    
     $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -82,6 +83,8 @@ function getItems() {
         </style>
     </head>
     <body>
+        <h1>Elements List</h1>
+        <a href="checkout.php">Shopping Cart</a>
         <form>
             <fieldset>
             <input type="text" name="elementSearch" placeholder="Search Name">
