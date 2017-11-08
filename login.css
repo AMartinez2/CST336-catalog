@@ -4,14 +4,13 @@
 
 body {
     background-color: #396173;
+    font-family: 'Cuprum', sans-serif;
+    color: white;
 }
 
 span {
-    background-color: #1b75bb;
-}
-
-h1 {
-    font-family: 'Lora', serif;
+    background-color: #000000;
+    border-radius: 15px;
 }
 
 h3 {
